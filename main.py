@@ -88,7 +88,7 @@ def main():
         process_base_face_mesh(drawing_spec, face_mesh, change_face_list[face_list_index],
                                show_landmarks=key_draw_landmarks,
                                show_triangulated_mesh=key_draw_landmarks)
-    cap = cv2.VideoCapture('Anirudh Moving.mp4')
+    cap = cv2.VideoCapture(0)
 
     cvWidth = cap.get(cv2.CAP_PROP_FRAME_WIDTH)
     cvHeight = cap.get(cv2.CAP_PROP_FRAME_HEIGHT)
