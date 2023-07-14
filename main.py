@@ -23,7 +23,7 @@ def getFaceImage():
 
 
 getFaceImage()
-change_face_list = ["man.jpg", "woman.jpg", "random.jpg"]
+change_face_list = ["random.jpg", "default.jpg"]
 MAX_FACESWAP_IMAGES = len(change_face_list) - 1
 
 
