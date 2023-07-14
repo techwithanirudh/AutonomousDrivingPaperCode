@@ -12,7 +12,7 @@ mp_face_mesh = mp.solutions.face_mesh
 
 
 def getFaceImage():
-    faceURL = 'https://thispersondoesnotexist.com/image'
+    faceURL = 'https://thispersondoesnotexist.com/'
     faceImg = requests.get(faceURL, stream=True)
     facePath = 'random.jpg'
 
